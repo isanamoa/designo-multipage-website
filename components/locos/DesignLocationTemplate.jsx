@@ -18,7 +18,7 @@ const DesignLocationTemplate = ({ flexSwap, designLocot }) => {
             <div className='flex flex-col items-center justify-center md:flex-row md:items-center md:justify-center gap-12'>
                 {
                     designLocot?.address?.map((value, index) => (
-                        <address key={index} className='text-[15px] text-center lg:text-left whitespace-pre-line first-line:font-bold'>{value}</address>)
+                        <address key={index} className='text-[15px] text-center lg:text-left whitespace-pre-line first-line:font-bold opacity-80'>{value}</address>)
                     )
                     
                 }

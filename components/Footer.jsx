@@ -41,9 +41,9 @@ const Footer = () => {
                     <h1 className='text-[24px]'>DESIGNO</h1>
                 </Link>
                 <nav className='flex flex-col-reverse md:flex-row-reverse items-center gap-3'>
-                <Link href={'/design-contact'} className='uppercase text-sm'>Contact</Link>
-                <Link href={'/design-location'} className='uppercase text-sm'>Locations</Link>
-                <Link href={'/about-company'} className='uppercase text-sm'>Our Company</Link>
+                    <Link href={'/design-contact'} className='uppercase text-sm'>Contact</Link>
+                    <Link href={'/design-location'} className='uppercase text-sm'>Locations</Link>
+                    <Link href={'/about-company'} className='uppercase text-sm'>Our Company</Link>
                 </nav>
             </div>
             
